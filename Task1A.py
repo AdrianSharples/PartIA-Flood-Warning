@@ -2,7 +2,7 @@
 #
 # SPDX-License-Identifier: MIT
 
-from floodsystem.stationdata import build_station_list
+from stationdata import build_station_list
 
 
 def run():

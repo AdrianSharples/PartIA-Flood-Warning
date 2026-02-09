@@ -5,8 +5,8 @@
 
 import datetime
 
-from floodsystem.datafetcher import fetch_measure_levels
-from floodsystem.stationdata import build_station_list
+from datafetcher import fetch_measure_levels
+from stationdata import build_station_list
 
 
 def test_build_station_list():
