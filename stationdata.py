@@ -6,8 +6,9 @@ objects fetched from the Internet and
 
 """
 
-from . import datafetcher
-from .station import MonitoringStation
+# from . import datafetcher
+from station import MonitoringStation
+from datafetcher import fetch_station_data
 
 
 def build_station_list(use_cache=True):
